@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("https://767710.smushcdn.com/524910/wp-content/uploads/2018/04/Cannabis-leaves-header_1200x500_0000_iStock-883312588-750x313.jpg?lossy=0&strip=1&webp=1");
+}
+
+.strain-card {
+  background-color: rgba(209, 194, 62, 0.747);
+  border: 0;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.24);
+  padding: 1rem;
+  cursor: pointer;
+  position: relative;
+  margin: 1rem auto;
+  width: 30%;
+  display: flex;
+}
+
+.strain-flavor {
+  padding: 4px 0;
+  font-size: 0.8rem;
+}
+
+.saved-list {
+  background-color: rgba(76, 206, 59, 0.747);
+  border: 0;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.24);
+  padding: 1rem;
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+}
+
+.saved-list h3 {
+  margin-right: 10px;
+}
+
+.saved-strain {
+  margin: 0 10px;
+}
+.saved-active {
+  border: 1px solid grey;
+  padding: 5px;
+}
+.save-wrapper {
+  position: relative;
+  width: 75%;
+  margin: 1rem auto;
+}
+.save-button {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.save-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.edit-button {
+  position: absolute;
+  top: 75px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+
+.edit-button:hover {
+  background-color: green;
+  color: white;
+}
+.delete-button {
+  position: absolute;
+  top: 150px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+
+.delete-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.home-button {
+  padding: 5px 10px;
+}
+
+.strain-warning {
+  color: red;
+  text-align: center;
+}
