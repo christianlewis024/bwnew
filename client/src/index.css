@@ -56,7 +56,7 @@ body {
   right: 25px;
   border: 1px solid grey;
   padding: 5px 10px;
-  background-color: lightseagreen;
+  background-color: lime;
 }
 .save-button:hover {
   background-color: green;
@@ -69,7 +69,7 @@ body {
   right: 25px;
   border: 1px solid grey;
   padding: 5px 10px;
-  background-color: lightseagreen;
+  background-color: lime;
 }
 
 .edit-button:hover {
@@ -82,7 +82,7 @@ body {
   right: 25px;
   border: 1px solid grey;
   padding: 5px 10px;
-  background-color: lightseagreen;
+  background-color: lime;
 }
 
 .delete-button:hover {
